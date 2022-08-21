@@ -1,0 +1,65 @@
+#+title: GDBridge README
+#+author: Charged
+Simple bots to bridge Discord to Guilded!
+
+* Table of Contents :toc:
+- [[#about-this-project][About this project]]
+- [[#installation][Installation]]
+  - [[#you-need][You need...]]
+  - [[#installing-dependencies][Installing dependencies]]
+  - [[#setting-up-environment-variables][Setting up environment variables]]
+  - [[#running-the-bot][Running the bot]]
+- [[#windows-users][Windows users]]
+  - [[#python][Python]]
+  - [[#guildedpy][Guilded.py]]
+
+* About this project
+This project is based on [[https://github.com/WiiLink24/guilded-bridge ][another project]]. I noticed it had some flaws, and some parts just outdated, so I decided to continue the project here.
+
+* Installation
+Using this project is simple, follow the steps.
+
+** You need...
++ A working system (Linux or MacOS is preferred. Windows'll work too).
++ Some basic knowledge on Guilded flowbots, and the Discord API.
++ Python, nothing'll work otherwise.
+
+*** You must create
++ A Guilded flowbot, and have its token.
++ A Discord bot, and have its token.
++ A Guilded and Discord webhook, and have their URLs ready.
++ A channel on both sides to bridge.
+
+** Installing dependencies
+This project depends on some python packages, you can install them with this command.
+#+begin_example sh
+pip install -r requirements.txt
+#+end_example
+
+** Setting up environment variables
+We need to let the bot know the parts to bridge, you must edit the `env-example` file, and rename it to `.env`.
+Here's what it looks like
+#+begin_example sh
+DISCORD_TOKEN=
+DISCORD_WEBHOOK=
+DISCORD_CHANNEL_ID=
+DISCORD_STATUS=
+
+GUILDED_TOKEN=
+GUILDED_WEBHOOK=
+#+end_example
+
+** Running the bot
+You should be all set! If this doesn't work, you can contact me on my [[https://guilded.gg/fts/][Guilded]] or [[https://dsc.gg/freetech/][Discord]] server.
+#+begin_example sh
+python3 launch.py
+#+end_example
+
+* Windows users
+This project was made to be run on Linux or MacOS. If you're on Windows, there's a few things you need to change.
+
+** Python
+The way you run Python varies by OS. If `python3` doesn't work, replace it with `py` or `python`.
+
+** Guilded.py
+Guilded.py may not work on your Windows system, as far as we've tested.
