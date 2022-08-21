@@ -2,9 +2,10 @@
 #+author: Charged
 Simple bots to bridge Discord to Guilded!
 
-#+HTML:<div align=center><a href="https://github.com/emacs-tw/awesome-emacs"><img alt="Emacs Logo" width="240" height="240" src="https://upload.wikimedia.org/wikipedia/commons/0/08/EmacsIcon.svg"></a>
-
-[[https://dsc.gg/freetech/][https://img.shields.io/discord/890754829276823562?color=%234c45d6&label=Discord&logo=Discord&style=for-the-badge]]
+#+HTML:<div>
+[[https://dsc.gg/freetech/][
+https://img.shields.io/discord/890754829276823562?color=%234c45d6&label=Discord&logo=Discord&style=for-the-badge]]
+[[https://img.shields.io/badge/Guilded-FTS-red][https://img.shields.io/badge/Guilded-FTS-red]]
 
 #+HTML:</div>
 
