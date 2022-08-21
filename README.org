@@ -1,13 +1,6 @@
-#+title: GDBridge README
+#+title: GDBridge
 #+author: Charged
 Simple bots to bridge Discord to Guilded!
-
-#+HTML:<div>
-[[https://dsc.gg/freetech/][
-https://img.shields.io/discord/890754829276823562?color=%234c45d6&label=Discord&logo=Discord&style=for-the-badge]]
-[[https://img.shields.io/badge/Guilded-FTS-red][https://img.shields.io/badge/Guilded-FTS-red]]
-
-#+HTML:</div>
 
 * Table of Contents :toc:
 - [[#about-this-project][About this project]]
